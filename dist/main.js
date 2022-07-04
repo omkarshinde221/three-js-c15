@@ -174,8 +174,7 @@ context2.fillText("Transactions:  { ", 13, 215);
 
 context2.fillText(transaction, 103, 240);
 
-context2.fillText("'Timestamp:' ", 23, 370 );
-context2.fillText(ttime +"} ", 133, 370);
+context2.fillText("} ", 133, 300);
 context2.fillText("} ", 43, 360);
 context2.fillText(" ]", 63, 380);
 
