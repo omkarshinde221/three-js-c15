@@ -135,9 +135,7 @@ scene.add( line2 );
 
 const queryString = window.location.href;
 var url = new URL(queryString);
-var sender = url.searchParams.get("sender");
-var receiver = url.searchParams.get("receiver");
-var amount = url.searchParams.get("amount");
+var transaction = url.searchParams.get("transaction");
 
 var creator = url.searchParams.get("creator");
 var time = url.searchParams.get("time");
@@ -173,14 +171,11 @@ context2.fillText(tsize, 113, 160);
 context2.fillText("Difficulty : ", 13, 190);
 context2.fillText(tsize, 113, 190);
 context2.fillText("Transactions:  { ", 13, 215);
-context2.fillText("'sender:' ", 23, 240 );
-context2.fillText(sender, 103, 240);
-context2.fillText("'receiver:' ", 23, 270 );
-context2.fillText(receiver, 103, 270);
-context2.fillText("'amount:' ", 23, 300 );
-context2.fillText(amount, 103, 300);
-context2.fillText("'Timestamp:' ", 23, 330 );
-context2.fillText(ttime +"} ", 133, 330);
+
+context2.fillText(transaction, 103, 240);
+
+context2.fillText("'Timestamp:' ", 23, 370 );
+context2.fillText(ttime +"} ", 133, 370);
 context2.fillText("} ", 43, 360);
 context2.fillText(" ]", 63, 380);
 
