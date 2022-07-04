@@ -161,18 +161,18 @@ context2.font = "450 20px muli extralight";
 context2.fillText("[ { ", 6, 20);
 context2.fillText("Block Number:2 ", 13, 50);
 context2.fillText("Block created by : ", 13, 80);
-context2.fillText(creator, 163, 80);
-context2.fillText("Block size : ", 13, 110);
-context2.fillText(size, 113, 110);
-context2.fillText("Timestamp : ", 13, 135);
-context2.fillText(time, 113, 135);
-context2.fillText("Total size : ", 13, 160);
-context2.fillText(tsize, 113, 160);
-context2.fillText("Difficulty : ", 13, 190);
+context2.fillText(creator, 13, 110);
+context2.fillText("Block size : ", 13, 135);
+context2.fillText(size, 113, 135);
+context2.fillText("Timestamp : ", 13, 160);
+context2.fillText(time, 113, 160);
+context2.fillText("Total size : ", 13, 190);
 context2.fillText(tsize, 113, 190);
-context2.fillText("Transactions:  { ", 13, 215);
+context2.fillText("Difficulty : ", 13, 215);
+context2.fillText(tsize, 113, 215);
+context2.fillText("Transactions:  { ", 13, 245);
 
-context2.fillText(transaction, 103, 240);
+context2.fillText(transaction, 13, 270);
 
 context2.fillText("} ", 133, 300);
 context2.fillText("} ", 43, 360);
